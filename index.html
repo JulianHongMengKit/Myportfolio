@@ -20,22 +20,23 @@
 
   <body>
     <!-- Navigation Bar -->
-
-    <nav>
-      <div class="container">
-        <!-- Nav Logo -->
-        <div class="nav__logo">
-          <h4>Julian Hong</h4>
+    <div class="navigation__bar">
+      <nav class="nav__1" [role="main" ]>
+        <div class="container">
+          <!-- Nav Logo -->
+          <div class="nav__logo">
+            <h4>Julian Hong</h4>
+          </div>
+          <!-- Nav Links -->
+          <ul class="nav__links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </div>
-        <!-- Nav Links -->
-        <ul class="nav__links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#resume">Resume</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
+      </nav>
+    </div>
 
     <!-- Home Section -->
     <section id="home" class="home__section">
@@ -129,8 +130,14 @@
         >
       </div>
     </section>
-    <nav class="backtotop">
-      <li><a href="#home">Back to top</a></li>
+    <nav>
+      <div class="button" [role="sub" ]>
+        <li>
+          <a href="#home"
+            ><img src="./img/clipart529328.png" width="14px" alt="back to top"
+          /></a>
+        </li>
+      </div>
     </nav>
   </body>
 </html>

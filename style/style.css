@@ -4,7 +4,7 @@ html {
   color: white;
   background-color: black;
   scroll-behavior: smooth;
-  background-image: url(../img/marc-kleen-eRwmBvhfvG8-unsplash.jpg);
+  background-image: url(../img/mckayla-crump-AjmBvSj_2IE-unsplash.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: top;
@@ -28,9 +28,9 @@ nav .container {
 }
 .nav__logo {
   text-transform: capitalize;
-  font-size: 16px;
+  font-size: 21px;
 }
-ul {
+.nav__links {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -72,7 +72,7 @@ section {
   padding-bottom: 20px;
 }
 .home__header {
-  color: whitesmoke;
+  color: rgb(0, 0, 0);
 }
 /* Social Media Icons CSS */
 .fa {
@@ -132,6 +132,7 @@ section {
 }
 .resume__section h1 {
   font-size: 50px;
+  color: black;
 }
 .resume__education {
   background-color: white;
@@ -154,4 +155,10 @@ section {
 .contact__section h1 {
   font-size: 50px;
   padding-bottom: 20px;
+}
+
+nav [role="sub"] {
+  background-color: white;
+  color: black;
+  opacity: 0.9;
 }
